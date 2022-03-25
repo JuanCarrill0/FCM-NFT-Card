@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+
+.contain{
+    padding: 30px;
+}
+
+.tarjet{
+    background-color: hsl(216, 50%, 16%);
+    width: 360px;
+    border-radius: 20px;
+}
+
+.title{
+    font-weight: 900;
+}
+
+.subtitle{
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.image-equilibrium{
+    width: 300px;
+
+}
+.info-section,.eth-section,.time-section,.user-section{
+    display: flex;
+}
+
+.image-favi{
+    object-fit:contain;
+    padding-right: 10px;
+
+}
+
+.user-section{
+    border-top: 1px solid white;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.image-user-section{
+ margin-right: 20px;
+}
+
+.image-user{
+    object-fit:contain;
+    border: 1px solid hsl(215, 51%, 70%);
+    border-radius: 60%;
+    width: 35px;
+}
+
+.eth-section{
+    margin-right: 90px;
+}
+
+.time-section,.subtitle,.userName{
+    color: hsl(215, 51%, 70%);
+    font-weight: bold;
+}
+
+.textWhite{
+    color: white;
+}
+
+.textWhite:hover, .title:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: grabbing;
+
+}
+
+.priceEth{
+    color: hsl(178, 100%, 50%);
+}
+
